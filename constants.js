@@ -137,8 +137,8 @@ const constants = {
     azureAccountNameRegex: /^[a-z0-9]{3,24}$/,
     base64Regex: new RegExp('^(?:[A-Za-z0-9+/]{4})*' +
         '(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$'),
-    // location constraint delimiter for ingestionConfig
-    ingestionDelimiter: ':',
+    // location constraint delimiter
+    zenkoSeparator: ':',
 };
 
 module.exports = constants;
